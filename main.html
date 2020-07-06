@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visual Respiration</title>
+        <!--Importing CSS-->
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <noscript>Script file is unable to load.</noscript>
+        <script src="./script.js" type="text/javascript" async></script>
+    </head>
+
+    <body>
+        <header>
+            <div>
+               <span>Visual Respiration</span>
+            </div>
+        </header>
+
+        <main>
+            <div id="initial">
+                <p style="color:rgb(27, 192, 233)" id="welcomep">Hii <span id="name" style="color:rgb(231,117,10)"></span>!</p>
+                <p id="check">How are you feeling today?</p>
+            </div>
+
+            <div class="flex1">
+                <div id="angry" onmouseover=angryin() onmouseout=angryout()>
+                    <a href="./angry.html" target="_blank">
+                    <img src="./images/angry.png" alt="angry" ></a>
+                    <br>
+                    <a href="./angry.html" target="_blank">
+                    <span style="font-size: 25px">Angry</span></a>
+                </div>
+
+                
+                <div id="motivated" onmouseover=motivatedin() onmouseout=motivatedout()>
+                    <a href="https://www.youtube.com/watch?reload=9&v=mk82j1jQw_8" target="_blank"> 
+                    <img src="./images/motivated.png" alt="motivated"></a>
+                    <br>
+                    <a href="https://www.youtube.com/watch?reload=9&v=mk82j1jQw_8" target="_blank">
+                    <span style="font-size: 25px">Motivated</span></a>
+                </div>
+                
+            </div>
+
+            <div class="flex2">
+                
+                <div id="bored" onmouseover=boredin() onmouseout=boredout()>
+                    <a href="https://www.instagram.com/visualrespiration/" target="_blank">
+                    <img src="./images/bored.png" alt="bored" ></a>
+                    <br>
+                    <a href="https://www.instagram.com/visualrespiration/" target="_blank">
+                    <span style="font-size: 25px">Bored</span></a>
+                </div>
+                
+            </div>
+        </main>
+    </body>
+
+</html>
